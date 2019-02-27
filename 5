@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <iostream>
+
+int main()
+{
+	float T, V1, V2, S;
+	printf("V1= ");
+	scanf_s("%f", &V1);
+	printf("V2= ");
+	scanf_s("%f", &V2);
+	printf("T= ");
+	scanf_s("%f", &T);
+
+	S = ((V1 + V2)*T) / 2;
+
+	printf("S= %.3f\n", S);
+	system("pause");
+	return 0;
+}
